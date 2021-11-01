@@ -1,0 +1,91 @@
+*{
+ font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: grey;
+}
+h1{
+    text-align: center;
+}
+#intro{
+    width: 50%;
+  margin: 10px auto 50px auto;  
+  border: 2px grey solid;
+  border-radius: 10px;
+  height: 160px;
+ background-color: rgb(156, 182, 231);
+}
+#img{
+    float: left;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: -140px;
+}
+#para{
+    width: 70%;
+    margin-left: 220px;
+    margin-top: 40px;
+    background-color: rgb(156, 182, 231);
+    font-size: 16px;  
+}
+
+#inte{
+    margin-top: 50px;
+}
+
+.heading{
+    color: rgb(55, 6, 59);
+    text-align: center;
+}
+label{
+    color:rgb(32, 4, 39);
+}
+#loginID{
+    color:rgb(66, 15, 66);
+    border: 2px solid rgb(146, 57, 143);
+    border-radius: 5px;
+    background-color: rgb(179, 132, 223);
+    width: 40%;
+    height: 30px;
+}
+#name{
+    color:rgb(66, 15, 66);
+    border: 2px solid rgb(146, 57, 143);
+    border-radius: 5px;
+    background-color: rgb(179, 132, 223);
+    width: 40%;
+    height: 30px;
+}
+
+#login{
+    background-color:rgb(66, 15, 66);
+    border: 2px solid rgb(146, 57, 143);
+    border-radius: 5px;
+    color: rgb(179, 132, 223);
+    width: 30%;
+    height: 30px;
+    font-weight: bold;
+}
+.formSection{
+    text-align: right;
+   
+}
+form{
+    border: 8px solid rgb(66, 15, 66);
+    width: 40%;
+    margin: 0% auto 0% auto;
+    padding: 5%;
+    border-radius: 10px;
+}
+#loginID:focus{
+    background-color: rgb(233, 122, 168);
+}
+#name:focus{
+    background-color: rgb(233, 122, 168);
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fahad Siddiqui | 2019-SE-206 | Lab2 WebEngineering</title>
+</head>
+<body>
+<div id="cook"></div>
+   <h1>Student Profile</h1> 
+<div id="intro">   
+<div id="para">
+    <p> My name is Muhammad Fahad Siddiqui. I am currently doing graduation in Software Engineering  from Sir Syed University of Engineering and Technology.
+    Currently I am in 6th Semester. I am also a MERN Stack developer working as a Freelancer on various platform.Apart from academics and careers my hobbies are Football and Movies
+</p></div>
+<a href="https://github.com/fahadsidd107?tab=repositories"><img src="./img1.jpg" id="img" alt=""></a>
+</div>
+<center>
+    <h2>Courses</h2>
+    <table id="studentCourses" class="courses">
+        <thead>
+             <tr>
+                 <th>Course ID</th>
+                 <th>Course Name</th>
+                 <th>Credit Hours</th>
+                 <th>Year Taken</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="row1" class="row">
+                <td>SWE-305</td>
+                <td>Software Quality Engineering</td>
+                <td>3+1</td>
+                <td>2021</td>
+            </tr>
+            <!-- <tr id="row2" class="row">
+                <td>SWE-308</td>
+                <td>Human Computer Interaction</td>
+                <td>3</td>
+                <td>2020</td>
+            </tr> -->
+            <tr id="row3" class="row">
+                <td>SWE-406</td>
+                <td>Web Engineering</td>
+                <td>2+1</td>
+                <td>2021</td>
+            </tr>
+            <tr id="row4" class="row">
+                <td>SWE-306</td>
+                <td>Computer Communication and Networks</td>
+                <td>3+1</td>
+                <td>2022</td>
+            </tr>
+        </tbody>
+     </table>
+    </br>
+    <input id="addRowColor" type="button" value="Add Row Color" />
+    <input type="button" value="Add New Course" onclick="addNewCourse();" />
+    <input type="button" value="Delete Course" onclick="deleteCourse();" />
+    <input type="button" value="Update Course" onclick="updateCourse();" />
+    <input type="button" value="Clear" onclick="cleartable();" />
+<div id="inte">
+    <h2>Interests</h2>   
+    <a href="https://www.ssuet.edu.pk/?__cf_chl_managed_tk__=pmd_uNhenNi444BQPv0T4FfkLZGBVhl_OP3FySBsinJDsrs-1635457543-0-gqNtZGzNAyWjcnBszQal">SSUET Home Page</a><hr>
+    <a href="https://www.ssuet.edu.pk/wp-content/uploads/2021/06/Award-of-Scholarships-and-Financial-Assistance.pdf">SSUET Scholarship Notice page</a><hr>
+    <a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.ssuet.edu.pk%2Fwp-content%2Fuploads%2F2019%2F12%2FEvent-Calander-Fall-Semester-2018-1.xlsx&wdOrigin=BROWSELINK">SSUET Eventes Calender Page</a>
+    <hr>
+    <div>
+        <button onclick="moveBackward()">Move back</button>
+        <ul id ="list"></ul>
+    </div>
+</div>
+</center>
+</body>
+<script src="app.js"></script>
+</html>
